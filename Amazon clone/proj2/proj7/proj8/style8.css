@@ -1,0 +1,57 @@
+/*div{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    animation: hi duration timing-function delay iteration-count direction fill-mode;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+
+}
+/*@media (width: 600px){
+    div{
+        background-color: aquamarine;
+    }
+}
+@media (max-width: 600px) {
+    div{
+        background-color: blueviolet;
+    }
+}
+@media (min-width:200px) and (max-width:600px){
+    div{
+        background-color: blanchedalmond;
+    }
+
+
+}
+@keyframes hi{
+    from {background-color: blueviolet;}
+    to {background-color: blue;}
+}
+div:hover{
+    background-color: rgb(121, 121, 182);
+}
+*/
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(41, 48, 41);
+    border-top: 5px solid brown;
+    animation-name: spinAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+@keyframes spinAnimate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,39 @@
+/*#box1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    font-size: 20px;
+    position: static;
+}
+#box2{
+    height: 50px;
+    width: 33%;
+    background-color: aqua;
+    margin-left: 10px;
+    font-size: 2eem;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    bottom: 500px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 2px dotted palevioletred;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    bottom: 500px;
+}*/
+div{
+    height: 100px;
+    width: 100px;
+    background-image: url("nik-r22qS5ejODs-unsplash.jpg");
+    background-size: cover;
+    color: blueviolet;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
